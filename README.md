@@ -93,6 +93,10 @@ pkill -x snail-lock
 - Global hotkey via Carbon `RegisterEventHotKey` so it fires from any focused app (no Accessibility / Input Monitoring permission needed).
 - The OS session is **not** locked, so apps that pause on screen-lock (Zoom, Slack-do-not-disturb) keep running normally.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
+
 ## Files
 
 - `lock.swift` — the app (single file)
