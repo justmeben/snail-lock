@@ -37,7 +37,7 @@ ask() {
 CFG="$HOME/.snail_lock.conf"
 read_conf() {
     local key=$1
-    [ -f "$CFG" ] || return
+    [ -f "$CFG" ] || return 0
     grep -E "^[[:space:]]*${key}[[:space:]]*=" "$CFG" | head -1 | sed -E 's/^[^=]*=[[:space:]]*//'
 }
 
