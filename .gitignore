@@ -1,0 +1,11 @@
+# Build artifacts
+snail-lock
+Snail Lock.app/
+SnailLock/
+SnailLock.zip
+
+# Local config (contains password)
+.snail_lock.conf
+
+# macOS
+.DS_Store

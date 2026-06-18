@@ -1,0 +1,31 @@
+# ~/.snail_lock.conf — Snail Lock settings.
+# Edit any value below (or use the settings UI in the app).
+# Lines starting with # are comments.
+
+# Password the user has to type to unlock.
+password=slug
+
+# Huge text shown on the lock screen for bystanders.
+message=BRB — DO NOT TOUCH
+
+# Big clickable icon at the bottom of the screen that reveals the password
+# prompt when tapped. Any single emoji or short text works.
+unlock_icon=🐌
+
+# Comma- or whitespace-separated list of emojis that fly around in the
+# background. Repeats act as weights — listing an emoji multiple times makes
+# it that much more likely to spawn.
+icon_set=🐌, 🐌, 🐌, 🐚, 🐛, 🌿, 🍃, 🌱, 🍄, 🪱
+
+# Global keyboard shortcut that triggers the lock from anywhere.
+# Format: combination of cmd/shift/option/control plus one key, joined by '+'.
+# Examples: option+l   cmd+shift+l   control+f12
+lock_hotkey=option+l
+
+# Custom image (PNG / JPG / animated GIF) shown bouncing around the screen
+# alongside the emoji background. Leave image_path empty to disable.
+# image_count copies will spawn and bounce around. If image_spin is true they
+# rotate slowly while moving.
+image_path=
+image_count=5
+image_spin=false
